@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Email Outreach Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Email Outreach Generator</h1>
+        <p class="subtitle">Draft professional B2B outreach emails in seconds using Gemini AI.</p>
+        
+        <form id="emailForm">
+            <label for="companyName">Target Company Name</label>
+            <input type="text" id="companyName" required placeholder="e.g., Acme Corp">
+
+            <label for="industry">Industry</label>
+            <input type="text" id="industry" required placeholder="e.g., E-commerce Logistics">
+
+            <label for="requirements">Key Customer Requirements / Pain Points</label>
+            <textarea id="requirements" rows="4" required placeholder="e.g., They are looking to reduce shipping delays, automate inventory tracking, and cut overhead costs."></textarea>
+
+            <button type="submit" id="submitBtn">Generate Outreach Email 🚀</button>
+        </form>
+
+        <div id="errorBox" class="error" style="display: none;"></div>
+        
+        <div id="resultContainer" class="result-box" style="display: none;">
+            <h2>Drafted Email:</h2>
+            <pre id="emailOutput"></pre>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
