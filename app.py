@@ -46,7 +46,7 @@ def generate_email():
     3. A clear value proposition addressing their specific requirements.
     4. A strong but low-pressure Call to Action (CTA).
     
-    Keep it concise and professional. Do not add placeholders like [Your Name], leave them blank or use a professional signature.
+    Keep it concise and professional and dont forget to Highly Humanize it. Add placeholders like Aditya Ranjan.
     """
 
     try:
